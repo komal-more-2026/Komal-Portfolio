@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Renuka Gajbhar | Developer Portfolio</title>
+
+    <meta name="description"
+          content="Renuka's personal portfolio showcasing programming skills, projects, and contact information.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Hi, I'm Renuka! </h1>
+        <p>Aspiring Web Developer | BCS Final-Year Student</p>
+
+        <!-- Navigation -->
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+
+            <p>
+                Welcome to my personal portfolio website!
+                I am learning web development and building
+                my skills to become a software developer.
+            </p>
+
+            <img
+                src="images/profile.jpeg"
+                alt="Renuka's profile photo"
+                width="180"
+            >
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a final-year Bachelor of Computer Science
+                student at MIT College of CS and IT, Basmath.
+                I am passionate about Java programming,
+                software development, and learning new technologies.
+            </p>
+
+            <p>
+                My goal is to become a skilled software developer
+                and create useful projects that solve real problems.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>Java Programming</li>
+                <li>HTML5</li>
+                <li>CSS - Learning</li>
+                <li>JavaScript - Learning</li>
+                <li>Python</li>
+                <li>PHP and MySQL</li>
+                <li>Git and GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <article>
+                <h3>Jewellery Shop Management System</h3>
+                <p>
+                    A web-based project developed to manage
+                    jewellery products and shop operations.
+                </p>
+                <p>Technologies: PHP, MySQL, HTML, CSS and JavaScript</p>
+            </article>
+
+            <article>
+                <h3>Modern Interior Designs Platform</h3>
+                <p>
+                    A Web-based project designed to manage student
+                    information and database operations.
+                </p>
+                <p>Technologies: PHP, HTML, CSS, JavaScript and MySQL</p>
+            </article>
+
+            <article>
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    My portfolio website showcasing my background,
+                    skills and projects.
+                </p>
+                <p>Technologies: HTML5</p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                Have a question or want to connect?
+                Fill in the form below.
+            </p>
+
+            <form id="contactForm">
+
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Your Message:</label>
+                    <br>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        cols="30"
+                        placeholder="Write your message"
+                        required
+                    ></textarea>
+                </div>
+
+                <br>
+
+                <button type="submit">Send Message</button>
+
+                <p id="formStatus" aria-live="polite"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Renuka's Developer Portfolio</p>
+        <p>Built with HTML5 and a passion for learning.</p>
+    </footer>
+</body>
+</html>
