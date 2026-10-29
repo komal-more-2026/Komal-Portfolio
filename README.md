@@ -1,5 +1,5 @@
 
-# Renuka's Developer Portfolio
+# Komal's Developer Portfolio
 
 ## Project Overview
 This is my first personal portfolio website,
